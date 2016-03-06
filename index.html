@@ -7,29 +7,32 @@
 	<link rel="stylesheet" href="style.css">
 	<script src="https://code.jquery.com/jquery-2.2.1.min.js"</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	
-	<script src="main.js"></script>			
+
+	<script src="main.js"></script>
 </head>
 <body>
 
 <div class="container">
-	<h1>Look for a Film!!!! &nbsp; <span class="glyphicon glyphicon-film" aria-hidden="true"></span></h1>
+	<h1><span class="glyphicon glyphicon-film" aria-hidden="true"></span>&nbsp;Look for a Film&nbsp;<span class="glyphicon glyphicon-film" aria-hidden="true"></span></h1>
 	<br>
 	<div class="navbar-form navbar-left" role="search">
   		<div class="form-group">
-  			<label for="search">Film Title:</label>
-  		  <input type="text" class="form-control" placeholder="Movie" id="searchMovie">
+  			<label for="search" id="label"></label>
+
+  		  <input type="text" class="form-control" placeholder="Enter Film Title!" id="searchMovie">
  		 </div>
 	</div>
-	<br>
+<br>
+
+
 	<button class="btn btn-default btn-info" id="click">Search</button>
-	<br>
-	<br>
-	<br>
+
+<br>
+<br>
+<br>
 	<div class='row'>
         <div class=".col-md-6" id="firstColumn"></div>
-        <div class=".col-md-6" id="secondColumn"></div>
     </div>
-</div>	
+</div>
 </body>
 </html>
